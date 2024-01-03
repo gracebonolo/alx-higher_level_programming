@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Check if the PYFILE environment variable is set
 if [ -z "$PYFILE" ]; then
@@ -12,6 +12,6 @@ if [ ! -f "$PYFILE" ]; then
   exit 1
 fi
 
-# Run the Python script
-python "$PYFILE"
+# Run the Python script using python3
+python3 "$PYFILE"
 
