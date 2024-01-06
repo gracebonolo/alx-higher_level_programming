@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/python3
 
 # Check if the PYCODE environment variable is set
 if [ -z "$PYCODE" ]; then
